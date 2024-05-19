@@ -1,0 +1,68 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #fefefe;
+}
+#loginVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.sufee-login {
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    width: 450px;
+    max-width: 97%;
+    margin: 0 auto;
+}
+
+
+
+/* Additional styles specific to login.php */
+.login-content {
+    margin-top: 180px;
+}
+
+.login-logo h2 {
+    color: #fff;
+}
+
+.login-form {
+    margin-top: 30px;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    color: #fff;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.login-form .btn-success {
+    background-color: #FFD173;
+    color: #242424;
+}
+
+.login-form .btn-success:hover {
+    background-color: #E3FF7C;
+}
